@@ -1,5 +1,5 @@
 import cv2 as cv
-image=cv.imread("D:\SEM 6\Comp_vision\Programs\Sample_Images\Sample3.jpg")
+image=cv.imread("C:Downloads\srees\Programs\Sample3.jpg")
 gray=cv.cvtColor(image,cv.COLOR_BGR2GRAY)
 img_gauss=cv.GaussianBlur(gray,(3,3),0)
 img_sobelx = cv.Sobel(img_gauss,cv.CV_8U,1,0,ksize=5) 
