@@ -1,5 +1,5 @@
 import cv2
-path = "D:\SEM 6\Comp_vision\Programs\Sample_Images\Sample8.jpg"
+path = "C:Downloads\srees\Programs\Sample8.jpg"
 img =cv2.imread(path)
 t_upper=50
 t_lower=150
