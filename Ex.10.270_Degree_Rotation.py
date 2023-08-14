@@ -9,5 +9,5 @@ def rotate_image(image_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 if __name__ == "__main__":
-    image_path = "D:\SEM 6\Comp_vision\Programs\Sample_Images\Sample10.jpg"
+    image_path = "D:\Programs\Sample.Images\Sample18.jpg"
     rotate_image(image_path)
